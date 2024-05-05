@@ -5,14 +5,14 @@
 }
 
 form {
-    border: 2px blue solid;
+    border: 2px rgb(55, 55, 56) solid;
     border-radius: 2px;
     display: flex;
     flex-direction: column;
 }
 
 div {
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(129, 68, 158);
 }
 
 .calculator {
@@ -37,6 +37,8 @@ div {
 
 input {
     padding: 1em;
+    background-color: rgb(82, 82, 82);
+    border: 1px solid black;
 }
 
 div.something > input:hover {
