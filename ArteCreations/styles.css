@@ -10,9 +10,16 @@ body {
 
 div.header {
     display: flex;
-    margin: 17px 0 0 81px;
+    margin: 92px 0 0 81px;
     flex-direction: column;
     gap: 2em;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
 }
 
 .navbar button{    
